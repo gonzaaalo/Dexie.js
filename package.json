@@ -8,18 +8,21 @@
   "exports": {
     ".": {
       "production": {
+        "browser": "./dist/dexie.min.js",
         "module": "./import-wrapper-prod.mjs",
         "import": "./import-wrapper-prod.mjs",
         "require": "./dist/dexie.min.js",
         "default": "./dist/dexie.min.js"
       },
       "development": {
+        "browser": "./dist/dexie.min.js",
         "module": "./import-wrapper.mjs",
         "import": "./import-wrapper.mjs",
         "require": "./dist/dexie.js",
         "default": "./dist/dexie.js"
       },
       "default": {
+        "browser": "./dist/dexie.min.js",
         "module": "./import-wrapper.mjs",
         "import": "./import-wrapper.mjs",
         "require": "./dist/dexie.js",
